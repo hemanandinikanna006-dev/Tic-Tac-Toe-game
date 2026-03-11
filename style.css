@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Screenshot\ 2026-03-11\ 213240.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    overflow: hidden; 
+}
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4rem;
+    color:#ffaff0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.1);
+    font-size: 10vmin;
+    color:red;
+    background-color:aliceblue;
+}
+#reset-btn{
+padding:1rem;
+font-size: 3vmin;
+background-color:blueviolet;
+color:white;
+border-radius: 1rem;
+border:none;
+}
+.winnertext{
+    color:#ffffc7;
+    font-size: 3rem;
+}
+.x-color{
+    color:#00f2fe;
+    text-shadow: 0 0 10px #010f, 0 0 20px #00f2fe;
+}
+.o-color{
+    color: #ff0076; /* Hot Pink */
+    text-shadow: 0 0 8px #ff0076, 0 0 5px #ff0076;
+}
